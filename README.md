@@ -1,4 +1,7 @@
 # deep-learning-challenge
+
+(See bottom of Readme for analysis)
+
 ackground
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
@@ -160,3 +163,28 @@ Explain the purpose of the analysis (4)
 Answer all 6 questions in the results section (10)
 Summarize the overall results of your model (4)
 Describe how you could use a different model to solve the same problem, and explain why you would use that model (6)
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Neural Network Model Analysis
+By: Cole Turner
+
+Overview:
+
+This project is worked on to show how machine learning can predict the success of applicants based on the funding recieved by Alphebet Soup. The goal of the project is to recieve an accuracy score surpassing 75%. 
+
+
+Compiling, Training, and Evaluating the Model:
+
+The inital model was done with the start code with two layers at 10 and 20. Accuracy showed 72%. 
+Optimization 1 of the model has 3 layers total at 8, 16 and 24. Accuracy showed 60%, My lowest score. 
+Optimization 2 of the model had the best accuracy score of 73% with 5 layers total ranging from 9, 18, 27, 36, 45. 
+
+SUMMARY:
+
+The closest I was able to attain was the targeted accuracy of 73%. I would not suggest any of the models used since none of them hit 75% exact but were closer to 72% or 73%. If I made more changes to the layers I would be able to get to 75% with more trials.
